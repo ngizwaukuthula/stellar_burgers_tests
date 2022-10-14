@@ -1,0 +1,52 @@
+Основная страница: "https://stellarburgers.nomoreparties.site/"
+    кнопки:
+        вход в аккаунт: ".//button[text()='Войти в аккаунт']"
+        оформить заказ: ".//button[text()='Оформить заказ']"
+
+    ссылки:
+        личный кабинет: ".//p[text()='Личный Кабинет']/parent::a[@href='/account']"
+
+    вкладки:
+       соусы: ".//span[text()='Соусы']/parent::div"
+       булки: ".//span[text()='Булки']/parent::div"
+       начинки: ".//span[text()='Начинки']/parent::div"
+
+Страница регистрации: "https://stellarburgers.nomoreparties.site/register"
+    поля ввода:
+        имя: ".//label[text()='Имя']/parent::div/input[@type='text']"
+        имейл: ".//label[text()='Email']/parent::div/input[@type='text']"
+        пароль: ".//label[text()='Пароль']/parent::div/input[@type='password']"
+
+    кнопки:
+        зарегистрироваться: ".//button[text()='Зарегистрироваться']"
+
+    текст:
+        ошибка регистрации: ".//p[@class='input__error text_type_main-default']"
+
+    ссылки:
+        войти: ".//a[@href'/login']"
+
+Страница логина: "https://stellarburgers.nomoreparties.site/login"
+    кнопки:
+        войти: ".//button[text()='Войти']"
+
+    поля ввода:
+        email: ".//input[@type='text']"
+        password: ".//input[@type='password']"
+
+    ссылки:
+        конструктор: ".//p[text()='Конструктор']/parent::a[@href='/']"
+        на конструктор под логотипом сайта: ".//div[@class='AppHeader_header__logo__2D0X2']/a[@href='/']"
+
+Страница восстановления пароля: "https://stellarburgers.nomoreparties.site/forgot-password"
+    ссылки:
+        войти: ".//a[@href'/login']"
+
+Страница профиля: "https://stellarburgers.nomoreparties.site/account/profile"
+    кнопки:
+        выход: ".//button[text()='Выход']"
+
+
+
+
+
